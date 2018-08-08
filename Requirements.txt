@@ -1,0 +1,45 @@
+Product Classification Challenge
+
+Overview
+You are tasked with predicting the id_categoria for brown/white/grey goods, 
+given the brand, model and product description. Currently, this classification is done 
+manually and your task is to do better by using machine learning and nlp.
+
+File descriptions
+data.csv - Input features and target id_categoria values for the training set (about 43 k rows)
+
+Data fields
+
+ID
+apolice - unique string 
+
+FEATURES
+id_reg - type of insurance coverage (always DTE, unimformative)
+tipo_prod - type of insurance product (either 01 or 02)
+tipo_reg - type of record (sale =1 or cancelation=9)
+ramo -  cod of insurance coverage
+num_loja - store number 
+num_sequencial - apolice without 0s (not needed) 
+marca_produto - brand of product
+modelo_produto - product model 
+codigo_produto - product code 
+descricao_produto - product description
+ean - universal product code  (empty)
+valor_venda - sale price 
+
+TARGET
+id_categoria
+
+
+Requirements
+- Code should be in python
+Try to use standard ML libraries such as scikitlearn, tensorflow and nltk
+
+- Code should be legible 
+Try using functions
+
+- Try no to jumble code together in one giant function
+Wrap bits of code in different functions
+
+
+
